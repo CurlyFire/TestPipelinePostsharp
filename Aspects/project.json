@@ -1,8 +1,16 @@
 ﻿{
   "version": "1.0.0-*",
-
+  "buildOptions": {
+    "compilerName": "postsharp",
+    "debugType": "full"
+  },
   "dependencies": {
-    "NETStandard.Library": "1.6.0"
+    "NETStandard.Library": "1.6.0",
+    "PostSharp.Redist": "5.0.26-rc"
+  },
+
+  "tools": {
+    "PostSharp": "5.0.26-rc"
   },
 
   "frameworks": {

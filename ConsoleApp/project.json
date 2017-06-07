@@ -1,17 +1,22 @@
 {
   "version": "1.0.0-*",
   "buildOptions": {
-    "compilerName": "postsharp", // Introduce PostSharp into the build chain.
-    "debugType": "full", // Portable PDB is not supported yet.
+    "compilerName": "postsharp",
+    "debugType": "full",
     "emitEntryPoint": true
   },
 
   "dependencies": {
     "Aspects": "1.0.0-*",
+    "PostSharp.Redist": "5.0.26-rc",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.1"
     }
+  },
+
+  "tools": {
+    "PostSharp": "5.0.26-rc"
   },
 
   "frameworks": {
