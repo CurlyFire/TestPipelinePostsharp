@@ -1,4 +1,7 @@
 {
+  "buildOptions": {
+    "debugType": "full"
+  },
   "version": "1.0.0-*",
   "dependencies": {
     "FluentAssertions": "4.16.0",
